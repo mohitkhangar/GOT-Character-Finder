@@ -14,7 +14,8 @@
 
 ## 📸 Screenshot
 ![GOT Character Finder](<img width="1265" height="661" alt="image" src="https://github.com/user-attachments/assets/b8cfba2f-b2d0-4eea-ab0e-b4f07527160e" />
-![Uploading image.png…]()
+![<img width="1269" height="658" alt="image" src="https://github.com/user-attachments/assets/44f5ade1-9cbb-4c46-bd52-fc592502eccb" />
+]()
 )
 
 ---
