@@ -8,12 +8,14 @@
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat)
 
 ## 🔗 Live Demo
-**[👉 Click here to try the app](YOUR_STREAMLIT_LINK_HERE)**
+**[👉 Click here to try the app](https://got-character-finder-mkatucs7hsygtwyinkwo4s.streamlit.app/)**
 
 ---
 
 ## 📸 Screenshot
-![GOT Character Finder](screenshot.png)
+![GOT Character Finder](<img width="1265" height="661" alt="image" src="https://github.com/user-attachments/assets/b8cfba2f-b2d0-4eea-ab0e-b4f07527160e" />
+![Uploading image.png…]()
+)
 
 ---
 
