@@ -25,7 +25,15 @@
 4. **Similarity:** Cosine Similarity finds the most similar characters
 5. **Result:** Top 5 most similar characters with match percentage
 ---
-
+Character Data (JSON)
+↓
+Feature Engineering (Tags)
+↓
+TF-IDF Vectorization
+↓
+Cosine Similarity Matrix (389×389)
+↓
+Top 5 Similar Characters
 ## ✨ Features
 
 - 🏰 Select from 389 GOT characters
@@ -51,3 +59,10 @@
 ---
 
 ## 📁 Project Structure
+GOT-Character-Finder/
+├── app.py                  ← Streamlit application
+├── characters.pkl          ← Processed character data
+├── similarity.pkl          ← Precomputed similarity matrix
+├── requirements.txt        ← Dependencies
+├── GOT.ipynb              ← Jupyter notebook (EDA + model)
+└── README.md
