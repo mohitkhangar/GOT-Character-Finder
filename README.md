@@ -1,89 +1,53 @@
-# ⚔️ GOT Character Finder
+# ⚔️ Game of Thrones Character Finder
 
-A web application to search and explore **Game of Thrones** characters using a public API.
+> Find characters similar to your favourite using Machine Learning
 
-## 🚀 Features
+![Python](https://img.shields.io/badge/Python-3.12-blue?style=flat&logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-deployed-red?style=flat&logo=streamlit)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?style=flat&logo=scikit-learn)
+![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat)
 
-- 🔍 Search characters by name
-- 👑 View character details
-- 🏰 Display house affiliation
-- 👨‍👩‍👧‍👦 Show family relationships
-- 🌐 Fetch data from a REST API
-- 📱 Responsive and user-friendly UI
+## 🔗 Live Demo
+**[👉 Click here to try the app](YOUR_STREAMLIT_LINK_HERE)**
+
+---
+
+## 📸 Screenshot
+![GOT Character Finder](screenshot.png)
+
+---
+
+## 🧠 How It Works
+
+1. **Data:** 389 Game of Thrones characters from official GOT API
+2. **Feature Engineering:** Combined house allegiance, family relationships, alliances, battle connections, and royal status into text tags
+3. **Vectorization:** TF-IDF Vectorizer converts character tags to numerical vectors
+4. **Similarity:** Cosine Similarity finds the most similar characters
+5. **Result:** Top 5 most similar characters with match percentage
+---
+
+## ✨ Features
+
+- 🏰 Select from 389 GOT characters
+- ⚔️ Find top 5 most similar characters
+- 📊 Similarity percentage score
+- 🎭 Actor name display
+- 👑 Royal status indicator
+- 🧠 Algorithm explanation
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Fetch API
-- Game of Thrones API
+| Tool | Purpose |
+|------|---------|
+| Python 3.12 | Core language |
+| Pandas | Data processing |
+| Scikit-learn | TF-IDF + Cosine Similarity |
+| NumPy | Matrix operations |
+| Streamlit | Web application |
+| Pickle | Model serialization |
 
 ---
 
-## 📂 Project Structure
-
-```
-GOT-Character-Finder/
-│── index.html
-│── style.css
-│── script.js
-│── assets/
-│── README.md
-```
-
----
-
-## 📸 Preview
-
-_Add screenshots or a GIF here after completing the project._
-
----
-
-## ⚙️ Installation
-
-1. Clone the repository
-
-```bash
-git clone https://github.com/mohitkhangar/GOT-Character-Finder.git
-```
-
-2. Open the project folder.
-
-3. Run `index.html` in your browser.
-
----
-
-## 🎯 Future Improvements
-
-- Filter by House
-- Search suggestions
-- Dark Mode
-- Character images
-- Better error handling
-- Pagination
-
----
-
-## 📚 Learning Outcomes
-
-- Working with REST APIs
-- Using Fetch API
-- Handling JSON data
-- DOM Manipulation
-- Event Handling
-- Building responsive interfaces
-
----
-
-## 👨‍💻 Author
-
-**Mohit Khangar**
-
-GitHub: https://github.com/mohitkhangar
-
----
-
-⭐ If you like this project, don't forget to star the repository!
+## 📁 Project Structure
